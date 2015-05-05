@@ -1,0 +1,1 @@
+C:\GitHub\KevinDockx\JsonPatchInAspNet5\artifacts\obj\JsonPatchInAspNet5.MvcClient\Debug\JsonPatchInAspNet5.MvcClient.xprojResolveAssemblyReference.cache

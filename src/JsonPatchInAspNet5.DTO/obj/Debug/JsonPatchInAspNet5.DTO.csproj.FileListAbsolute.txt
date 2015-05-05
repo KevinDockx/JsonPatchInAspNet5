@@ -1,0 +1,12 @@
+C:\GitHub\KevinDockx\AspNet\Mvc\JsonPatchInAspNet5\JsonPatchInAspNet5.DTO\bin\Debug\JsonPatchInAspNet5.DTO.dll
+C:\GitHub\KevinDockx\AspNet\Mvc\JsonPatchInAspNet5\JsonPatchInAspNet5.DTO\bin\Debug\JsonPatchInAspNet5.DTO.pdb
+C:\GitHub\KevinDockx\AspNet\Mvc\JsonPatchInAspNet5\JsonPatchInAspNet5.DTO\obj\Debug\JsonPatchInAspNet5.DTO.dll
+C:\GitHub\KevinDockx\AspNet\Mvc\JsonPatchInAspNet5\JsonPatchInAspNet5.DTO\obj\Debug\JsonPatchInAspNet5.DTO.pdb
+C:\GitHub\KevinDockx\JsonPatchInAspNet5\JsonPatchInAspNet5.DTO\bin\Debug\JsonPatchInAspNet5.DTO.dll
+C:\GitHub\KevinDockx\JsonPatchInAspNet5\JsonPatchInAspNet5.DTO\bin\Debug\JsonPatchInAspNet5.DTO.pdb
+C:\GitHub\KevinDockx\JsonPatchInAspNet5\JsonPatchInAspNet5.DTO\obj\Debug\JsonPatchInAspNet5.DTO.dll
+C:\GitHub\KevinDockx\JsonPatchInAspNet5\JsonPatchInAspNet5.DTO\obj\Debug\JsonPatchInAspNet5.DTO.pdb
+C:\GitHub\KevinDockx\JsonPatchInAspNet5\src\JsonPatchInAspNet5.DTO\bin\Debug\JsonPatchInAspNet5.DTO.dll
+C:\GitHub\KevinDockx\JsonPatchInAspNet5\src\JsonPatchInAspNet5.DTO\bin\Debug\JsonPatchInAspNet5.DTO.pdb
+C:\GitHub\KevinDockx\JsonPatchInAspNet5\src\JsonPatchInAspNet5.DTO\obj\Debug\JsonPatchInAspNet5.DTO.dll
+C:\GitHub\KevinDockx\JsonPatchInAspNet5\src\JsonPatchInAspNet5.DTO\obj\Debug\JsonPatchInAspNet5.DTO.pdb

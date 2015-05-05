@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{62028D88-4FB6-45E7-82F2-A329198DF7E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B635770E-F81B-4C4D-8B14-17E2894E51B8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JsonPatchInAspNet5.WebAPI", "src\JsonPatchInAspNet5.WebAPI\JsonPatchInAspNet5.WebAPI.xproj", "{E0033C17-43F9-43EB-92E6-EEC9E8EF0EDC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JsonPatchInAspNet5.MvcClient", "src\JsonPatchInAspNet5.MvcClient\JsonPatchInAspNet5.MvcClient.xproj", "{73D94912-8427-4B5F-8068-0A5627E4632C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonPatchInAspNet5.DTO", "src\JsonPatchInAspNet5.DTO\JsonPatchInAspNet5.DTO.csproj", "{77D0DB34-6050-4AC2-8E1F-12BC85DC48E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonPatchInAspNet5.OldMvcClient", "src\JsonPatchInAspNet5.OldMvcClient\JsonPatchInAspNet5.OldMvcClient.csproj", "{35DCEF5A-671C-46BE-A881-1B153188EC6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0033C17-43F9-43EB-92E6-EEC9E8EF0EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0033C17-43F9-43EB-92E6-EEC9E8EF0EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0033C17-43F9-43EB-92E6-EEC9E8EF0EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0033C17-43F9-43EB-92E6-EEC9E8EF0EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D94912-8427-4B5F-8068-0A5627E4632C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D94912-8427-4B5F-8068-0A5627E4632C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D94912-8427-4B5F-8068-0A5627E4632C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D94912-8427-4B5F-8068-0A5627E4632C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D0DB34-6050-4AC2-8E1F-12BC85DC48E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D0DB34-6050-4AC2-8E1F-12BC85DC48E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D0DB34-6050-4AC2-8E1F-12BC85DC48E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D0DB34-6050-4AC2-8E1F-12BC85DC48E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DCEF5A-671C-46BE-A881-1B153188EC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DCEF5A-671C-46BE-A881-1B153188EC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DCEF5A-671C-46BE-A881-1B153188EC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DCEF5A-671C-46BE-A881-1B153188EC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0033C17-43F9-43EB-92E6-EEC9E8EF0EDC} = {62028D88-4FB6-45E7-82F2-A329198DF7E0}
+		{73D94912-8427-4B5F-8068-0A5627E4632C} = {62028D88-4FB6-45E7-82F2-A329198DF7E0}
+		{77D0DB34-6050-4AC2-8E1F-12BC85DC48E3} = {62028D88-4FB6-45E7-82F2-A329198DF7E0}
+		{35DCEF5A-671C-46BE-A881-1B153188EC6E} = {62028D88-4FB6-45E7-82F2-A329198DF7E0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "Wine Cellar"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-JsonPatchInAspNet5.MvcClient-79a6599d-785b-4d65-b416-1bfa25731d96;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45+sl40+win": {
+      "wrappedProject": "../../src/JsonPatchInAspNet5.DTO/JsonPatchInAspNet5.DTO.csproj",
+      "bin": {
+        "assembly": "../../src/JsonPatchInAspNet5.DTO/obj/{configuration}/JsonPatchInAspNet5.DTO.dll",
+        "pdb": "../../src/JsonPatchInAspNet5.DTO/obj/{configuration}/JsonPatchInAspNet5.DTO.pdb"
+      }
+    }
+  }
+}

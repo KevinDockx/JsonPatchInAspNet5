@@ -1,0 +1,32 @@
+﻿@model IEnumerable<JsonPatchInAspNet5.DTO.BottleOfWine>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>My Wine Cellar</h2>
+
+<p>
+   
+</p>
+<table class="table">
+ 
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Year)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Grape)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) 
+        
+        </td>
+    </tr>
+}
+
+</table>
