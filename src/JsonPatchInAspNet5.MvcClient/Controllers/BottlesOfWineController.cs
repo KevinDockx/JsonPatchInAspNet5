@@ -68,25 +68,23 @@ namespace JsonPatchInAspNet5.MvcClient.Controllers
 
                 // create the patch request
                 var method = new HttpMethod("PATCH");
-                var request = new HttpRequestMessage(method, "http://localhost:1735/api/bottlesofwine/" + id)
+                var request = new HttpRequestMessage(method, 
+                    "http://localhost:1735/api/bottlesofwine/" + id)
                 {
                     Content = new StringContent(serializedPatchDoc,
                     System.Text.Encoding.Unicode, "application/json")
                 };
 
-
                 // send it, using an HttpClient instance
                 HttpClient client = new HttpClient();
                 var result = await client.SendAsync(request);
-
-
+                
                 if (result.IsSuccessStatusCode)
                 {
                     return RedirectToAction("Index");
                 }
 
                 return View(result.StatusCode);
-
             }
             catch
             {

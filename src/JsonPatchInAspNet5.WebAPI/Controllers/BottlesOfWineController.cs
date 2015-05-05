@@ -39,7 +39,8 @@ namespace JsonPatchInAspNet5.WebAPI.Controllers
 
 
         [HttpPatch("{id}")]
-        public IActionResult Patch(int id, [FromBody]JsonPatchDocument<BottleOfWine> bottleOfWinePatchDocument)
+        public IActionResult Patch(int id, 
+            [FromBody]JsonPatchDocument<BottleOfWine> bottleOfWinePatchDocument)
         {
             // find the bottle with the correct id
             var bottles = Datastore.WineStore.BottlesOfWine;
